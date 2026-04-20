@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ✦ MomentsMagic — Event Planning Website
 
 > A premium, production-ready event planning website built with **React + Vite + Tailwind CSS + Framer Motion**.
@@ -267,3 +268,34 @@ In production, replace `http://localhost:8080` with your server URL.
 ## 📄 License
 
 Built exclusively for Event Planners. Private and proprietary.
+=======
+# Event Planner Website
+
+A premium, production-ready event planning website built using modern web technologies.
+
+---
+
+## 🚀 Tech Stack
+- React (Vite)
+- Tailwind CSS
+- Framer Motion
+- Spring Boot (Backend)
+- PostgreSQL (Database)
+
+---
+
+## 📌 Features
+- Event creation & management
+- User authentication
+- Responsive UI
+- Smooth animations with Framer Motion
+
+---
+
+## ⚙️ How to Run the Project
+
+### Frontend
+```bash
+npm install
+npm run dev
+>>>>>>> fe4956a (Added readme and solved merge conflicts)
