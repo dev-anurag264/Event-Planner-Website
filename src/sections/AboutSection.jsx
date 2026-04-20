@@ -13,9 +13,9 @@ export default function AboutSection() {
             <div className="relative">
               {/* Main card */}
               <div className="relative bg-gradient-to-br from-champagne to-blush/40 rounded-3xl p-12 text-center overflow-hidden">
-                <div className="text-8xl mb-4">✦</div>
+                <div className="text-8xl mb-4">11:11</div> {/* Logo & Name */}
                 <div className="font-display text-3xl font-semibold text-charcoal mb-2">
-                  11:11 Butterfly Events
+                  Butterfly Events
                 </div>
                 <div className="font-sans text-xs tracking-[0.3em] text-warmgray uppercase">
                   by Pallavi S.
@@ -87,21 +87,22 @@ export default function AboutSection() {
               </h2>
             </ScrollReveal>
 
-            <ScrollReveal delay={0.2}>
-              <p className="font-body text-lg text-warmgray leading-relaxed mb-5">
-                Born from a passion for beautiful moments, MomentsMagic started
-                as a small wedding décor studio in Siliguri. Today, we're one of
-                the most trusted event planning companies across North Bengal —
-                with over 500 celebrations under our belt.
+            <ScrollReveal delay={0.3}>
+              <p className="font-body text-xl text-text-gray-700 leading-relaxed mb-5">
+                Born from a passion for beautiful moments, 11:11 Butterfly
+                Events started as a small event planner studio in Bengaluru.
+                Today, we're expanding our services in the field of event
+                planning with end to end solutions across Bengaluru, with over
+                100 celebrations under our belt.
               </p>
             </ScrollReveal>
 
             <ScrollReveal delay={0.3}>
-              <p className="font-body text-lg text-warmgray leading-relaxed mb-8">
-                We believe every event deserves a touch of magic. Whether it's
+              <p className="font-body text-xl text-gray-700 leading-relaxed mb-8">
+                We believe every event deserves a touch of love. Whether it's
                 the subtle blush tones of a baby shower or the grandeur of a
-                wedding mandap, we approach every event with the same devotion —
-                yours.
+                wedding mandap, we approach every event with the same devotion
+                as yours.
               </p>
             </ScrollReveal>
 

@@ -10,7 +10,7 @@ import TestimonialsSection from "./sections/TestimonialsSection";
 import CTASection from "./sections/CTASection";
 import ContactSection from "./sections/ContactSection";
 import Carousell from "./sections/Carousell";
-
+import Gallery from "./sections/ClientGallery";
 export default function App() {
   return (
     <div className="relative">
@@ -19,8 +19,9 @@ export default function App() {
         <HeroSection />
         <ServicesSection />
         <ProcessSection />
-        <Carousell />
         <AboutSection />
+        <Gallery />
+
         <TestimonialsSection />
         <CTASection />
         <ContactSection />

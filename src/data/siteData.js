@@ -63,39 +63,38 @@ export const heroSlides = [
 export const services = [
   {
     id: 1,
-    title: "Wedding Planning",
+    title: "Bride/Groom to Be",
     description:
-      "From intimate ceremonies to grand celebrations, we craft weddings that tell your unique love story with elegance and precision.",
-    icon: "💍",
+      "Step into your wedding journey with grace. We design bespoke pre-wedding and wedding experiences, ensuring every detail feels timeless.",
     image: "src/assets/wedding-planning.jpg",
     color: "from-rose-100 to-pink-5",
     accent: "#a1364b",
     features: [
-      "Full-day coordination",
-      "Vendor management",
-      "Timeline planning",
+      "Event coordination",
+      "Event & vendor management",
+      "Event planning",
       "Budget tracking",
     ],
   },
-  {
-    id: 2,
-    title: "Floral Décor",
-    description:
-      "Exquisite floral arrangements that transform any space into a breathtaking garden of dreams and romance.",
+  // {
+  //   id: 2,
+  //   title: "Floral Decor",
+  //   description:
+  //     "Exquisite floral arrangements that transform any space into a breathtaking garden of dreams and romance.",
 
-    image: "src/assets/ss.jpg",
-    color: "from-pink-100 to-rose-50",
-    accent: "#F2C4CE",
-    features: [
-      "Custom bouquets",
-      "Venue florals",
-      "Table centrepieces",
-      "Arch & mandap décor",
-    ],
-  },
+  //   image: "src/assets/ss.jpg",
+  //   color: "from-pink-100 to-rose-50",
+  //   accent: "#F2C4CE",
+  //   features: [
+  //     "Custom bouquets",
+  //     "Venue florals",
+  //     "Table centrepieces",
+  //     "Arch & mandap décor",
+  //   ],
+  // },
   {
     id: 3,
-    title: "Surprise Decoration",
+    title: "Surprise Celebrations",
     description:
       "Curated surprise setups that leave your loved ones absolutely speechless and create memories for a lifetime.",
     image: "src/assets/srrr.jpg",
@@ -113,7 +112,7 @@ export const services = [
     id: 5,
     title: "Birthday Parties",
     description:
-      "Vibrant, joyful birthday celebrations that reflect personality and create unforgettable moments.",
+      "Vibrant, joyful birthday celebrations that reflect personality and create unforgettable moments. We make every birthday a unique celebration of life.",
     image: "src/assets/example.jpg",
     color: "from-yellow-50 to-amber-50",
     accent: "#E8D5A3",
@@ -124,28 +123,14 @@ export const services = [
       "Party favours",
     ],
   },
-  {
-    id: 6,
-    title: "Bride & Groom Surprises",
-    description:
-      "Heartfelt moments curated for the bride-to-be and groom — because every milestone deserves celebration.",
-    icon: "👰",
-    color: "from-rose-50 to-blush-50",
-    accent: "#F2C4CE",
-    features: [
-      "Bridal shower setup",
-      "Proposal decor",
-      "Couple photoshoot backdrop",
-      "Pampering kits",
-    ],
-  },
+
   {
     id: 7,
     title: "Baby Showers",
     description:
       "Gentle, dreamy celebrations welcoming the newest addition to your family with warmth and whimsy.",
-    icon: "🍼",
     color: "from-sky-50 to-blue-50",
+    image: "src/assets/baby.jpg",
     accent: "#8FAE88",
     features: [
       "Gender reveal",
@@ -154,21 +139,21 @@ export const services = [
       "Guest activities",
     ],
   },
-  {
-    id: 4,
-    title: "Customised Decoration",
-    description:
-      "Bespoke decor tailored precisely to your vision — your theme, your colours, your dream brought to life.",
-    icon: "🎨",
-    color: "from-purple-50 to-pink-50",
-    accent: "#C97D8A",
-    features: [
-      "Themed decor",
-      "Colour coordination",
-      "Prop styling",
-      "Backdrop design",
-    ],
-  },
+  // {
+  //   id: 4,
+  //   title: "Customised Decoration",
+  //   description:
+  //     "Bespoke decor tailored precisely to your vision, your theme, your colours, your dream brought to life.",
+  //   icon: "🎨",
+  //   color: "from-purple-50 to-pink-50",
+  //   accent: "#C97D8A",
+  //   features: [
+  //     "Themed decor",
+  //     "Colour coordination",
+  //     "Intimate Decor",
+  //     "Backdrop design",
+  //   ],
+  // },
 ];
 
 export const testimonials = [
@@ -219,9 +204,9 @@ export const testimonials = [
 ];
 
 export const stats = [
-  { value: "500+", label: "Events Curated" },
-  { value: "8+", label: "Years Experience" },
-  { value: "1200+", label: "Happy Clients" },
+  { value: "100+", label: "Events Curated" },
+  { value: "2+", label: "Years Experience" },
+  { value: "200+", label: "Happy Clients" },
   { value: "100%", label: "Love Delivered" },
 ];
 

@@ -10,13 +10,13 @@ function ServiceCard({ service, index }) {
       <motion.div
         whileHover={{ y: -8, scale: 1.01 }}
         transition={{ duration: 0.35, ease: "easeOut" }}
-        className="group relative bg-white rounded-3xl p-7 shadow-sm hover:shadow-xl transition-all duration-500 border border-transparent hover:border-gold/20 overflow-hidden cursor-pointer h-full"
+        className="group relative bg-pink-50 rounded-3xl p-7 shadow-sm hover:shadow-xl transition-all duration-500 border border-transparent hover:border-gold/20 overflow-hidden cursor-pointer h-full"
       >
         {/* Subtle bg on hover */}
         <div>
           <motion.img
             src={service.image}
-            className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+            className="w-full h-full object-cover rounded-xl transition-transform duration-700 group-hover:scale-110"
           />
         </div>
         <div
@@ -25,7 +25,7 @@ function ServiceCard({ service, index }) {
 
         <div className="relative z-10">
           {/* Title */}
-          <h3 className="font-display text-xl font-semibold text-charcoal mb-3 group-hover:text-charcoal transition-colors">
+          <h3 className="font-display text-xl font-semibold text-charcoal mb-3 group-hover:text-charcoal transition-colors mt-2">
             {service.title}
           </h3>
 
@@ -55,7 +55,7 @@ function ServiceCard({ service, index }) {
             className="inline-flex items-center gap-1.5 mt-6 font-sans text-sm font-medium transition-colors duration-300"
             style={{ color: service.accent }}
           >
-            Learn more →
+            Learn more
           </motion.a>
         </div>
       </motion.div>
@@ -71,7 +71,7 @@ export default function ServicesSection() {
           eyebrow="Our Services"
           title="Everything You Need for"
           titleHighlight="Perfect Events"
-          subtitle="From floral dreams to full-scale weddings — we handle every detail so you can simply enjoy your special day."
+          subtitle="From floral dreams to full-scale weddings. We handle every detail so you can simply enjoy your special day."
         />
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
@@ -83,7 +83,7 @@ export default function ServicesSection() {
         {/* Bottom CTA */}
         <ScrollReveal delay={0.3}>
           <div className="mt-16 text-center">
-            <p className="font-body text-warmgray mb-6">
+            <p className="font-body text-xl text-warmgray mb-6">
               Not sure which service you need? Let's talk and craft the perfect
               package for you.
             </p>
