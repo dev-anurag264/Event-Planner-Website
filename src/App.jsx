@@ -11,6 +11,7 @@ import CTASection from "./sections/CTASection";
 import ContactSection from "./sections/ContactSection";
 import Carousell from "./sections/Carousell";
 import Gallery from "./sections/ClientGallery";
+import { Analytics } from "@vercel/analytics/react";
 export default function App() {
   return (
     <div className="relative">
@@ -28,6 +29,7 @@ export default function App() {
       </main>
       <Footer />
       <WhatsAppButton />
+      <Analytics />
     </div>
   );
 }
